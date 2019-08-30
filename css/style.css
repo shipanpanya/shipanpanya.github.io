@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	color: #fff;
+}
+
+body,html{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+.photo{
+	background-color: rgba(0,0,0,0.8);
+}
+.photo ul{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 0;
+}
+.photo ul li{
+	display: inline-block;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	line-height: 60px;
+}
+.photo ul li a{
+	color: #fff;
+	display: block;
+	width: 100%;
+	height: 100%;
+	transition-duration: 0.5s;
+	font-size: 16px;
+}
+.photo ul li a:hover{
+	background-color: #fff;
+	text-decoration: underline;
+	color: #333;
+}
+.photo{
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/21.png);
+	overflow: hidden;
+}
+.photo .col{
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: relative;
+}
+.photo .col .text{
+	position: absolute;
+	top: 25%;
+	left: 20%;
+	width: 20%;
+	height: auto;
+	font-size: 16px;
+}
+.photo .col a{
+	position: absolute;
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	width: 100px;
+	height: 40px;
+	border: 1px solid #fff;
+	transition-duration: 0.5s;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+}
+.photo .col a:hover{
+	color: #333;
+	background-color: #fff;
+}
